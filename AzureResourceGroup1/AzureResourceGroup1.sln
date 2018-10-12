@@ -7,6 +7,10 @@ Project("{151D2E53-A2C4-4D7D-83FE-D05416EBD58E}") = "AzureResourceGroup1", "Azur
 EndProject
 Project("{151D2E53-A2C4-4D7D-83FE-D05416EBD58E}") = "AzureResourceGroup2", "AzureResourceGroup2\AzureResourceGroup2.deployproj", "{6FA4E3A2-4F81-495B-9C96-EC3DA618A9CA}"
 EndProject
+Project("{151D2E53-A2C4-4D7D-83FE-D05416EBD58E}") = "2subnetincVM", "2subnetincVM\2subnetincVM.deployproj", "{520EA126-590E-4C2A-848E-18DB8DDFEA55}"
+EndProject
+Project("{151D2E53-A2C4-4D7D-83FE-D05416EBD58E}") = "101-application-gateway-waf", "101-application-gateway-waf\101-application-gateway-waf.deployproj", "{EB3D367E-DE30-4A36-B491-94C9E711BE50}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +25,14 @@ Global
 		{6FA4E3A2-4F81-495B-9C96-EC3DA618A9CA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6FA4E3A2-4F81-495B-9C96-EC3DA618A9CA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6FA4E3A2-4F81-495B-9C96-EC3DA618A9CA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{520EA126-590E-4C2A-848E-18DB8DDFEA55}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{520EA126-590E-4C2A-848E-18DB8DDFEA55}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{520EA126-590E-4C2A-848E-18DB8DDFEA55}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{520EA126-590E-4C2A-848E-18DB8DDFEA55}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EB3D367E-DE30-4A36-B491-94C9E711BE50}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EB3D367E-DE30-4A36-B491-94C9E711BE50}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EB3D367E-DE30-4A36-B491-94C9E711BE50}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EB3D367E-DE30-4A36-B491-94C9E711BE50}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
